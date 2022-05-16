@@ -1,14 +1,14 @@
 import React from 'react';
 
-import './App.css';
-
 import ThemeProvider from './utils/themeProvider/ThemePovider';
-import ThemeSwitcherBtn from './utils/themeProvider/ThemeSwitcherBtn';
+
+import { Navbar } from './components';
+import './App.css';
 
 function App() {
   return (
     <ThemeProvider>
-      <ThemeSwitcherBtn/>
+      <Navbar/>
     </ThemeProvider>
   );
 }
