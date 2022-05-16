@@ -4,9 +4,9 @@
 }
 
 .navbar-logo {
-    width: 82px;
-    height: 53px;
-    margin: 1.7rem 0 0 0;
+    width: 100px;
+    height: 70px;
+    margin: 2rem 0 0 0;
 }
 
 .navbar-logo img {
@@ -34,7 +34,7 @@
 }
 
 .navbar__contain-links ul li {
-    margin: 1rem;
+    margin: 0rem 1rem 0rem 1rem;
     list-style: none;
     font-size: 19px;
     opacity: 0.9;
