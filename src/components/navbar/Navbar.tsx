@@ -50,10 +50,6 @@ function Navbar() {
               <div className="navbar__menu-container__themeSwitcher">
                 <ThemeSwitcherBtn />
               </div>
-              <div className="navbar__menu-container__connexion">
-                <button id='login'>Log in</button>
-                <button id='signup'>Sign Up</button>
-              </div>
             </div>
           }
         </div>

@@ -16,7 +16,8 @@ const ThemeSwitcherBtn = () => {
         checked={themeContext.theme === "dark"} 
         checkedIcon={<FiSun style={{color:"#ff0"}}/>} 
         uncheckedIcon={<FiMoon style={{color:"#280c4a"}}/>}
-        onColor="#7b7b85"/>
+        onColor="#7b7b85"
+        offColor="#7b7b85"/>
     </label>
   );
 };
