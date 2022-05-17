@@ -47,8 +47,12 @@ function Navbar() {
                 <li><a href="about" onClick={() => setToggleMenu(false)}>About us</a></li>
                 <li><a href="contact" onClick={() => setToggleMenu(false)}>Contact</a></li>
               </ul>
-              <div className="themeSwitcher">
+              <div className="navbar__menu-container__themeSwitcher">
                 <ThemeSwitcherBtn />
+              </div>
+              <div className="navbar__menu-container__connexion">
+                <button id='login'>Log in</button>
+                <button id='signup'>Sign Up</button>
               </div>
             </div>
           }
