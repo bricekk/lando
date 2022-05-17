@@ -39,3 +39,9 @@ body {
 li,button{
   cursor: pointer;
 }
+
+@media screen and (max-width:650px) {
+  .section__margin{
+    margin: 1rem 0rem;
+  }
+}

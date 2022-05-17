@@ -45,12 +45,6 @@
     opacity: 0.9;
 }
 
-.navbar__connexion {
-    align-items: center;
-    display: flex;
-    justify-content: flex-end;
-}
-
 .navbar__connexion #signup {
     color: #fff;
     font-family: var(--font-buttons);
@@ -85,18 +79,15 @@
 
 .navbar__menu {
     display: none;
-    max-width: max-content;
-    margin: 0;
 }
 
 .navbar__menu-container {
     position:absolute;
     top: 0;
-    left: 60vw ;
-    width: 90%;
+    right: 0;
+    width: 70%;
     height: 100vh;
     background-color: var(--menu-background);
-    flex-direction: column;
     z-index: 1201;
 }
 
@@ -180,13 +171,13 @@
 
 @keyframes slide-left {
     0% {
-        -webkit-transform: translateX(0);
-        transform: translateX(0);
+        -webkit-transform: translateX(300px);
+        transform: translateX(300px);
     }
 
     100% {
         -webkit-transform: translateX(-100px);
-        transform: translateX(-100px);
+        transform: translateX(0px);
     }
 }
 
@@ -210,7 +201,6 @@
     .navbar__contain{
         margin: 0 2rem;
     }
-
 }
 
 @media screen and (max-width:400px){
