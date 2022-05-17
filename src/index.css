@@ -6,6 +6,12 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+
+*{
+  box-sizing: border-box;
+}
+
 :root {
   --primary-color: #3164F4;
   --text-color: #030303;
@@ -40,8 +46,16 @@ li,button{
   cursor: pointer;
 }
 
-@media screen and (max-width:650px) {
+
+@media screen and (max-width:730px){
   .section__margin{
-    margin: 1rem 0rem;
+    margin: 1rem 4rem;
+  }
+}
+
+
+@media screen and (max-width:680px) {
+  .section__margin{
+    margin: 1rem 1rem;
   }
 }
