@@ -34,7 +34,7 @@ function Navbar() {
         </div>
         <div className='navbar__menu'>
           {toggleMenu
-            ? <RiCloseLine className='closeLine' color="var(--text-color)" size={40} onClick={() => setToggleMenu(false)} />
+            ? <RiCloseLine className='closeLine' color="var(--text-color-light)" size={40} onClick={() => setToggleMenu(false)} />
             : <RiMenu3Line className='MenuLine' color="var(--text-color)" size={27} onClick={() => setToggleMenu(true)} />
           }
           {toggleMenu &&
