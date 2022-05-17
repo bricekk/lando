@@ -144,4 +144,9 @@
     .welcome__container-text h1{
         font-size: 30px;
     }
+
+    .welcome__container-quote button{
+        padding: 0.5rem 2rem;
+        margin-top: 1rem;
+    }
 }
