@@ -14,8 +14,8 @@ const ThemeSwitcherBtn = () => {
       <Switch 
         onChange={themeContext.toggle} 
         checked={themeContext.theme === "dark"} 
-        checkedIcon={<FiSun style={{color:"#ff0"}}/>} 
-        uncheckedIcon={<FiMoon style={{color:"#280c4a"}}/>}
+        checkedIcon={<FiSun style={{color:"#fff"}}/>} 
+        uncheckedIcon={<FiMoon style={{color:"#fff"}}/>}
         onColor="#7b7b85"
         offColor="#7b7b85"/>
     </label>
