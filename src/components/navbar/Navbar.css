@@ -45,6 +45,10 @@
     opacity: 0.9;
 }
 
+.navbar__connexion{
+    margin-right: 1rem;
+}
+
 .navbar__connexion #signup {
     color: #fff;
     font-family: var(--font-buttons);
@@ -79,7 +83,6 @@
 
 .navbar__menu {
     display: none;
-    display: flex;
 }
 
 .navbar__menu-container {
@@ -122,8 +125,6 @@
     color: var(--primary-color);
     opacity: 0.9;
 }
-
-navbar__menu-container__connexion
 
 .MenuLine {
     margin-left: 1rem;
