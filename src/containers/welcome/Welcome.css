@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.welcome__container {
+    font-family: 'Poppins';
+}
+
+.welcome__container-text {
+    padding-top: 7rem;
+    overflow-wrap: break-word;
+}
+
+.welcome__container-text p {
+    color: rgb(127, 127, 127);
+}
+
+.welcome__container-text h1 {
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.welcome__container-img {
+    float: right;
+    width: 725px;
+    height: 595px;
+    margin-bottom: 5rem;
+}
+
+.welcome__container-img img {
+    width: 100%;
+}
+
+.welcome__container-quote button {
+    padding: 0.7rem 4rem;
+    background-color: var(--primary-color);
+    border-radius: 8px;
+    color: var(--text-color-light);
+
+    font-family: var(--font-buttons);
+    font-size: 18px;
+}
+
+
+.welcome__container-quote button:hover {
+    color: var(--bg-color);
+}
+
+@media screen and (max-width:1563px) {
+    .welcome__container-img {
+        width: 660px;
+        height: 660px;
+    }
+
+    .welcome__container-text {
+        padding-top: 5rem;
+    }
+
+    .welcome__container-text h1 {
+        font-size: 45px;
+    }
+}
+
+@media screen and (max-width:1450px) {
+    .welcome__container-img {
+        width: 600px;
+        height: 600px;
+    }
+
+    .welcome__container-text {
+        padding-top: 4.5rem;
+    }
+
+    .welcome__container-text h1 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:1429px) {
+    .welcome__container-text h1 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:1367px) {
+    .welcome__container-img {
+        width: 600px;
+        height: 600px;
+    }
+}
+
+@media screen and (max-width:1310px) {
+    .welcome__container-text h1 {
+        font-size: 39px;
+    }
+
+    .welcome__container-img {
+        width: 560px;
+        height: 600px;
+    }
+}
+
+@media screen and (max-width:1185px) {
+    .welcome__container-text h1 {
+        font-size: 37px;
+    }
+}
+
+@media screen and (max-width:1135px) {
+    .welcome__container-text h1 {
+        font-size: 34px;
+    }
+}
+
+@media screen and (max-width:1100px) {
+
+    .welcome__container {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .welcome__container-img {
+        float: none;
+        align-items: center;
+        display: flex;
+        flex: 1;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0;
+        width: unset;
+        height: unset;
+    }
+
+    .welcome__container-img img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .welcome__container-text {
+        padding-top: 0;
+    }
+
+    .welcome__container-text h1{
+        font-size: 30px;
+    }
+}
