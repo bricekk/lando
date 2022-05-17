@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri'
 
+import ThemeSwitcherBtn from '../../utils/themeProvider/ThemeSwitcherBtn';
+
 import './Navbar.css'
 import logo from '../../assets/logo.png'
 
@@ -45,6 +47,9 @@ function Navbar() {
                 <li><a href="about" onClick={() => setToggleMenu(false)}>About us</a></li>
                 <li><a href="contact" onClick={() => setToggleMenu(false)}>Contact</a></li>
               </ul>
+              <div className="themeSwitcher">
+                <ThemeSwitcherBtn />
+              </div>
             </div>
           }
         </div>
