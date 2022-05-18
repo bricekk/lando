@@ -16,10 +16,30 @@
 
     .welcome__container-text h1 {
         font-size: 45px;
+        line-height: 50px;
+    }
+
+    .headline__container-text h1{
+        font-size: 44px;
+        line-height: 54px;
     }
 
     .brand {
         margin-top: 17rem;
+    }
+
+    .headline{
+        margin-top: 5rem;
+    }
+}
+
+@media screen and (min-width:1563px){
+    .welcome__container-text h1{
+        line-height: 55px;
+    }
+
+    .welcome__container-text h1{
+        line-height: 44px;
     }
 }
 
@@ -37,6 +57,11 @@
         font-size: 40px;
     }
 
+    .headline__container-text h1{
+        font-size: 39px;
+        line-height: 49px;
+    }
+
     .brand {
         margin-top: 15rem;
     }
@@ -45,6 +70,11 @@
 @media screen and (max-width:1429px) {
     .welcome__container-text h1 {
         font-size: 40px;
+    }
+
+    .headline__container-text h1{
+        font-size: 39px;
+        line-height: 49px;
     }
 }
 
@@ -64,23 +94,35 @@
         font-size: 39px;
     }
 
+    .headline__container-text h1{
+        font-size: 38px;
+        line-height: 48px;
+    }
+
     .welcome__container-img {
         width: 560px;
         height: 600px;
     }
-
-
 }
 
 @media screen and (max-width:1185px) {
     .welcome__container-text h1 {
         font-size: 37px;
     }
+
+    .headline__container-text h1{
+        font-size: 36px;
+        line-height: 46px;
+    }
 }
 
 @media screen and (max-width:1135px) {
     .welcome__container-text h1 {
         font-size: 34px;
+    }
+
+    .headline__container-text h1{
+        font-size: 33px;
     }
 }
 
@@ -144,6 +186,11 @@
     .brand {
         margin-top: 5rem;
     }
+
+    .headline__container-text h1{
+        font-size: 29px;
+        line-height: 39px;
+    }
 }
 
 @media screen and (max-width:985px) {
@@ -163,6 +210,24 @@
 
     .navbar__contain {
         margin: 0 2rem;
+    }
+
+    .headline__container{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .headline__container-img{
+        width: unset;
+        height: unset;
+        margin-left: unset;
+    }
+
+    .headline__container-text{
+        width: unset;
+        margin: 0 2rem 2rem 2rem;
+
     }
 }
 

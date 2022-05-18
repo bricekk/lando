@@ -33,6 +33,7 @@
     padding: 0.7rem 4rem;
     background-color: var(--primary-color);
     border-radius: 8px;
+    border-color:var(--bg-color);
     color: var(--text-color-light);
 
     font-family: var(--font-buttons);

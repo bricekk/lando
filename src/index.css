@@ -22,12 +22,16 @@
 
   --font-links: 'Gelion Regular';
   --font-buttons: 'Inter';
+  --box-shadow:gray;
+  --headline-bg: #f3f3f3;
 }
 
 :root.dark {
   --primary-color: #3164F4;
   --text-color: #f3f3f3;
   --bg-color: #353333;
+  --box-shadow: rgba(0, 0, 0,.6);
+  --headline-bg:#474646;
 }
 
 body {
