@@ -6,7 +6,7 @@ import './Welcome.css'
 
 function Welcome() {
   return (
-    <div className='welcome__container section__margin'>
+    <div className='welcome__container'>
       <div className='welcome__container-img'>
         <img src={welcomeImg} alt='' />
       </div>

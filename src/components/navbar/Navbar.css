@@ -183,31 +183,3 @@
         transform: translateX(0px);
     }
 }
-
-
-
-@media screen and (max-width:985px) {
-    .navbar__contain-links ul {
-        display: none;
-    }
-
-    .navbar__menu {
-        display:block;
-    }
-}
-
-@media screen and (max-width:880px) {
-    .navbar__connexion {
-        display: none;
-    }
-
-    .navbar__contain{
-        margin: 0 2rem;
-    }
-}
-
-@media screen and (max-width:400px){
-    .navbar__contain{
-        margin: 0 1rem;
-    }
-}
