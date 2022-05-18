@@ -228,7 +228,10 @@
     .headline__container-text{
         width: unset;
         margin: 0 2rem 2rem 2rem;
+    }
 
+    .headline__container button{
+        margin-top: 1rem;
     }
 }
 
@@ -238,12 +241,29 @@
     }
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:405px) {
     .navbar__contain {
         margin: 0 1rem;
     }
 
     .section__margin{
         margin: 0rem 1rem;
+    }
+
+    .headline__container-text{
+        width: unset;
+        margin: 0 1rem 2rem 1rem;
+    }
+}
+
+@media screen and (max-width:325px){
+    .headline__container button{
+        padding: 0.7rem 1rem;
+    }
+}
+
+@media screen and (max-width:245px){
+    .welcome__container-quote button{
+        padding: 0.7rem 1rem;
     }
 }
