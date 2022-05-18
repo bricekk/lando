@@ -119,10 +119,12 @@
 @media screen and (max-width:1135px) {
     .welcome__container-text h1 {
         font-size: 34px;
+        line-height: 44px;
     }
 
     .headline__container-text h1{
         font-size: 33px;
+        line-height: 43px;
     }
 }
 
@@ -159,6 +161,7 @@
 
     .welcome__container-text h1 {
         font-size: 30px;
+        line-height: 40px;
     }
 
     .welcome__container-quote button {
