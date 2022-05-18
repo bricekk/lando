@@ -5,6 +5,7 @@ import ThemeProvider from './utils/themeProvider/ThemePovider';
 import { Navbar, Brand } from './components';
 import { Welcome } from './containers';
 import './App.css';
+import './media.css';
 
 function App() {
   return (
