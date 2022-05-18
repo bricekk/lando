@@ -6,7 +6,7 @@ import './Brand.css'
 function Brand() {
   return (
     <div className='brand'>
-      <h4>Trusted by individuals and teams at the world's best companies.</h4>
+      <h4>Trusted by individuals and teams at the cameroon's best companies.</h4>
       <div className='brand__container'>
           <div className='brand__container-brand-img'>
             <img src={brandImg} alt="" />
