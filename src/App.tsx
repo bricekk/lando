@@ -3,7 +3,7 @@ import React from 'react';
 import ThemeProvider from './utils/themeProvider/ThemePovider';
 
 import { Navbar, Brand, Headline } from './components';
-import { Welcome } from './containers';
+import { Welcome, Features } from './containers';
 import './App.css';
 import './media.css';
 
@@ -16,6 +16,9 @@ function App() {
         <Welcome />
         <Brand />
         <Headline />
+        <div>
+          <Features />
+        </div>
       </div>
     </ThemeProvider>
   );

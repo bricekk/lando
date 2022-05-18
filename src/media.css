@@ -24,6 +24,11 @@
         line-height: 54px;
     }
 
+    .feature__container-text h1{
+        font-size: 38px;
+        line-height: 48px;
+    }
+
     .brand {
         margin-top: 17rem;
     }
@@ -59,6 +64,12 @@
         line-height: 49px;
     }
 
+
+    .feature__container-text h1{
+        font-size: 33px;
+        line-height: 43px;
+    }
+
     .brand {
         margin-top: 15rem;
     }
@@ -73,6 +84,12 @@
     .headline__container-text h1{
         font-size: 39px;
         line-height: 49px;
+    }
+
+
+    .feature__container-text h1{
+        font-size: 33px;
+        line-height: 43px;
     }
 }
 
@@ -98,6 +115,11 @@
         line-height: 48px;
     }
 
+    .feature__container-text h1{
+        font-size: 32px;
+        line-height: 42px;
+    }
+
     .welcome__container-img {
         width: 560px;
         height: 600px;
@@ -114,6 +136,12 @@
         font-size: 36px;
         line-height: 46px;
     }
+
+
+    .feature__container-text h1{
+        font-size: 30px;
+        line-height: 40px;
+    }
 }
 
 @media screen and (max-width:1135px) {
@@ -125,6 +153,11 @@
     .headline__container-text h1{
         font-size: 33px;
         line-height: 43px;
+    }
+
+    .feature__container-text h1{
+        font-size: 27px;
+        line-height: 37px;
     }
 }
 
@@ -164,6 +197,17 @@
         line-height: 40px;
     }
 
+    .headline__container-text h1{
+        font-size: 29px;
+        line-height: 39px;
+    }
+
+
+    .feature__container-text h1{
+        font-size: 23px;
+        line-height: 33px;
+    }
+
     .welcome__container-quote button {
         padding: 0.5rem 2rem;
         margin-top: 1rem;
@@ -190,9 +234,9 @@
         margin-top: 5rem;
     }
 
-    .headline__container-text h1{
-        font-size: 29px;
-        line-height: 39px;
+    .feature__container-text{
+        padding-bottom: 9rem;
+        width: 60%;
     }
 }
 
@@ -235,6 +279,34 @@
 
     .headline__container button{
         margin-top: 1rem;
+    }
+
+    .feature{
+        margin-bottom: unset;
+    }
+
+    .feature__container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .feature__container-img{
+        float: none;
+        align-items: center;
+        display: flex;
+        flex: 1;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0;
+        width: unset;
+        height: unset;
+    }
+
+    .feature__container-text{
+        width: unset;
     }
 }
 

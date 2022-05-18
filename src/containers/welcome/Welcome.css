@@ -9,10 +9,6 @@
     overflow-wrap: break-word;
 }
 
-.welcome__container-text p {
-    color: rgb(127, 127, 127);
-}
-
 .welcome__container-text h1 {
     font-weight: 900;
     font-size: 50px;

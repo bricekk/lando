@@ -51,6 +51,10 @@ li,button{
   cursor: pointer;
 }
 
+.text_to_blur{
+  color: rgb(127, 127, 127);
+}
+
 
 @media screen and (max-width:730px){
   .section__margin{
