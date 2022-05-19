@@ -16,9 +16,7 @@ function App() {
         <Welcome />
         <Brand />
         <Headline />
-        <div>
-          <Features />
-        </div>
+        <Features />
       </div>
     </ThemeProvider>
   );
