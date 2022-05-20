@@ -368,6 +368,10 @@
     .steps__container__left-step h2{
         font-size: 15px;
     }
+
+    .steps__container{
+        padding: 30px;
+    }
 }
 
 @media screen and (max-width:405px) {
