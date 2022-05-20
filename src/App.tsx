@@ -2,7 +2,7 @@ import React from 'react';
 
 import ThemeProvider from './utils/themeProvider/ThemePovider';
 
-import { Navbar, Brand, Headline } from './components';
+import { Navbar, Brand, Headline, Steps } from './components';
 import { Welcome, Features } from './containers';
 import './App.css';
 import './media.css';
@@ -17,6 +17,7 @@ function App() {
         <Brand />
         <Headline />
         <Features />
+        <Steps />
       </div>
     </ThemeProvider>
   );

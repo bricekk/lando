@@ -1,6 +1,7 @@
 import React from 'react'
 
 import { Feature } from '../../components'
+import './Features.css'
 
 import studentImg from '../../assets/student.png'
 import dollarImg from '../../assets/dollar.png'
@@ -31,11 +32,11 @@ function Features() {
   ];
 
   return (
-    <>
+    <div className='features'>
       {featuresData.map((item, index) => (
         <Feature supTitle={item.supTitle} title={item.title} text={item.text} img={item.img}/>
       ))}
-    </>
+    </div>
   )
 }
 
