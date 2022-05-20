@@ -136,11 +136,12 @@
     .steps__container{
         display: flex;
         flex-direction: column;
-        padding-bottom: 5rem;
+        padding-bottom: 7rem;
     }
 
     .steps__container__right-label{
         width: 100%;
+        margin-bottom: 2rem;
     }
 
     .steps__container__left-step{
