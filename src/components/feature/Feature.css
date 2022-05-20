@@ -13,7 +13,7 @@
 .feature__container-text{
     margin-top: auto;
     margin-bottom: auto;
-    width: 50%;
+    width: 80%;
 }
 
 .feature__container-text h1{
@@ -27,8 +27,7 @@
 }
 
 .feature__container-img{
-    width: 600px;
-    height: 600px;
+    width: 601px;
 }
 
 .feature__container-img img{

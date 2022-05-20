@@ -28,12 +28,6 @@ function Features() {
       text: 'We allow direct communication with your assigned team right from the start. Discuss your project details without any worries, your idea is safe with us.',
       img: `${womanImg}`,
     },
-    {
-      supTitle: 'Spontanaity',
-      title: 'Speed',
-      text: '',
-      img: `${womanImg}`,
-    },
   ];
 
   return (
