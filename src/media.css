@@ -160,6 +160,10 @@
     .steps__container__right-img img{
         width: 100%;
     }
+
+    .steps__container__left img{
+        width: 15px;
+    }
 }
 
 @media screen and (max-width:1185px) {
