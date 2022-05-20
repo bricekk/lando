@@ -322,7 +322,8 @@
 
     .headline__container-text {
         width: unset;
-        margin: 0 2rem 3rem 2rem;
+        margin-bottom:3rem;
+        margin-left: unset;
     }
 
     .headline__container button {
@@ -390,7 +391,7 @@
 
     .headline__container-text {
         width: unset;
-        margin: 0 1rem 2rem 1rem;
+        margin-bottom: 2rem;
     }
 
     .welcome__container-text h1 {
