@@ -136,7 +136,7 @@
     .steps__container{
         display: flex;
         flex-direction: column;
-        padding-bottom: 7rem;
+        padding-bottom: 5rem;
     }
 
     .steps__container__right-label{
@@ -372,7 +372,7 @@
     }
 
     .steps__container__left-step h2{
-        font-size: 15px;
+        font-size: 18px;
     }
 
     .steps__container{
