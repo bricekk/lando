@@ -4,7 +4,9 @@ import { RiMenu3Line, RiCloseLine } from 'react-icons/ri'
 import ThemeSwitcherBtn from '../../utils/themeProvider/ThemeSwitcherBtn';
 
 import './Navbar.css'
+
 import logo from '../../assets/logo.png'
+import logoDark from '../../assets/logoDark.png'
 
 const Menu = () => (
   <>
@@ -19,6 +21,11 @@ const Menu = () => (
 
 function Navbar() {
 
+  const getLogo = () => {
+    let theme = localStorage.getItem("theme");
+    return theme==="light"? logo : logoDark
+  };
+
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
@@ -26,7 +33,7 @@ function Navbar() {
       <div className='navbar__contain section__margin'>
         <div className='navbar__contain-links'>
           <div className='navbar-logo'>
-            <img src={logo} alt="lando_logo" />
+            <img src={getLogo()} alt="lando_logo" />
           </div>
           <Menu />
         </div>
