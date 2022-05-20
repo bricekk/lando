@@ -372,7 +372,7 @@
     }
 
     .steps__container__left-step h2{
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .steps__container{
@@ -414,6 +414,10 @@
 @media screen and (max-width:325px) {
     .headline__container button {
         padding: 0.7rem 1rem;
+    }
+
+    .steps__container__left-step h2{
+        font-size: 15px;
     }
 }
 
