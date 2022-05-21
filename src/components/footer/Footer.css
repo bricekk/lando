@@ -30,6 +30,10 @@
     margin-bottom: 1rem;
 }
 
+.footer__container__links li:hover{
+    color: var(--primary-color);
+}
+
 .footer__container__links a{
     text-decoration: none;
     color: unset;

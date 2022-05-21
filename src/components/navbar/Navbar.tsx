@@ -12,7 +12,7 @@ const Menu = () => (
   <>
     <ul>
       <li>Home</li>
-      <li>Pricing</li>
+      <li>Services</li>
       <li>About us</li>
       <li>Contact</li>
     </ul>
@@ -50,7 +50,7 @@ function Navbar() {
             <div className='navbar__menu-container slide-left'>
               <ul>
                 <li><a href="home" onClick={() => setToggleMenu(false)}>Home</a></li>
-                <li><a href="pricing" onClick={() => setToggleMenu(false)}>Pricing</a></li>
+                <li><a href="Services" onClick={() => setToggleMenu(false)}>Services</a></li>
                 <li><a href="about" onClick={() => setToggleMenu(false)}>About us</a></li>
                 <li><a href="contact" onClick={() => setToggleMenu(false)}>Contact</a></li>
               </ul>

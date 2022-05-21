@@ -3,6 +3,8 @@ import React from 'react'
 import logoLight from '../../assets/logo.png'
 import logoDark from '../../assets/logoDark.png'
 
+import ThemeSwitcherBtn from '../../utils/themeProvider/ThemeSwitcherBtn'
+
 
 import './Footer.css'
 
@@ -26,7 +28,7 @@ function Footer() {
           <div className=''>
             <ul>
               <li><a href="home">Home</a></li>
-              <li><a href="home">Pricing</a></li>
+              <li><a href="home">Services</a></li>
               <li><a href="home">About us</a></li>
               <li><a href="home">Contact</a></li>
             </ul>
@@ -43,6 +45,7 @@ function Footer() {
             <ul>
               <li><a href="home">Privacy Policy</a></li>
               <li><a href="home">Terms Of Services</a></li>
+              <li><ThemeSwitcherBtn /></li>
             </ul>
           </div>
         </div>
