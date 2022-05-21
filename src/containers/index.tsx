@@ -1,2 +1,5 @@
 export { default as Welcome } from './welcome/Welcome'
 export { default as Features } from './features/Features'
+export { default as Headline } from './headline/Headline'
+export { default as Steps } from './steps/Steps'
+export { default as Testimonials } from './testimonials/Testimonials'

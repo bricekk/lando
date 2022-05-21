@@ -2,8 +2,8 @@ import React from 'react';
 
 import ThemeProvider from './utils/themeProvider/ThemePovider';
 
-import { Navbar, Brand, Headline, Steps } from './components';
-import { Welcome, Features } from './containers';
+import { Navbar, Brand } from './components';
+import { Welcome, Features, Headline, Steps, Testimonials } from './containers';
 import './App.css';
 import './media.css';
 
@@ -18,6 +18,7 @@ function App() {
         <Headline />
         <Features />
         <Steps />
+        <Testimonials />
       </div>
     </ThemeProvider>
   );

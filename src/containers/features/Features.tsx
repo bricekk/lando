@@ -33,7 +33,7 @@ function Features() {
 
   return (
     <div className='features'>
-      {featuresData.map((item, index) => (
+      {featuresData.map((item) => (
         <Feature supTitle={item.supTitle} title={item.title} text={item.text} img={item.img}/>
       ))}
     </div>

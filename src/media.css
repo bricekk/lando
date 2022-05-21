@@ -102,6 +102,10 @@
     .brand {
         margin-top: 0rem;
     }
+
+    .testimonial__container{
+        width: 300px;
+    }
 }
 
 @media screen and (max-width:1310px) {
@@ -165,6 +169,10 @@
     .steps__container__left img{
         width: 20px;
     }
+
+    .testimonial__container{
+        width: 270px;
+    }
 }
 
 @media screen and (max-width:1185px) {
@@ -184,6 +192,7 @@
         line-height: 40px;
     }
 }
+
 
 @media screen and (max-width:1135px) {
     .welcome__container-text h1 {
@@ -258,7 +267,6 @@
         display: flex;
         flex-direction: column;
         flex-flow: row wrap;
-        flex-basis: 3;
     }
 
     .brand__container-brand-img {
@@ -278,6 +286,14 @@
     .feature__container-text {
         width: 60%;
         padding-bottom: 5rem;
+    }
+
+    .steps{
+        margin-bottom: 10rem;
+    }
+
+    .testimonials__container{
+        flex-flow: row wrap;
     }
 }
 
