@@ -25,24 +25,24 @@ function Footer() {
         <div className='footer__container__links'>
           <div className=''>
             <ul>
-              <li><a href="">Home</a></li>
-              <li><a href="">Pricing</a></li>
-              <li><a href="">About us</a></li>
-              <li><a href="">Contact</a></li>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Contact</a></li>
             </ul>
           </div>
           <div className=''>
             <ul>
-              <li><a href="">Twitter</a></li>
-              <li><a href="">Instagram</a></li>
-              <li><a href="">Discord</a></li>
-              <li><a href="">Linkedin</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">Discord</a></li>
+              <li><a href="#">Linkedin</a></li>
             </ul>
           </div>
           <div className=''>
             <ul>
-              <li><a href="">Privacy Policy</a></li>
-              <li><a href="">Terms Of Services</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms Of Services</a></li>
             </ul>
           </div>
         </div>
