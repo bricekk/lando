@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
+
+.quote{
+    margin-bottom: 5rem;
+}
+
 .quote__container h1{
     font-family: "poppins";
 }

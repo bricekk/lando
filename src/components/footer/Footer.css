@@ -1,0 +1,36 @@
+.footer{
+    border-top: 2px solid var(--box-shadow);
+    font-family: var(--font-title);
+}
+
+.footer__container{
+    display: flex;
+    padding: 3rem;
+    padding-right: 15rem;
+}
+
+.footer__container-credits-logo{
+    width: 100px;
+    margin: 2rem 0 0 0;
+}
+
+.footer__container-credits-logo img{
+    max-width: 100%;
+}
+
+.footer__container__links{
+    display: flex;
+    flex-grow: 4;
+    justify-content: flex-end;
+    gap: 5rem;
+}
+
+.footer__container__links li{
+    list-style: none;
+    margin-bottom: 1rem;
+}
+
+.footer__container__links a{
+    text-decoration: none;
+    color: unset;
+}

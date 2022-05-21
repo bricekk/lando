@@ -5,6 +5,8 @@
   src: local('../src/assets/fonts/Gelion Regular.woff'), url('../src/assets/fonts/Gelion\ Regular.woff') format('woff');
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
 
 @import './media.css';
@@ -24,6 +26,7 @@
   --font-buttons: 'Inter';
   --box-shadow:gray;
   --headline-bg: #f3f3f3;
+  --font-title: "Poppins"
 }
 
 :root.dark {
