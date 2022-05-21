@@ -1,0 +1,21 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.testimonials h1{
+    font-family: "Poppins";
+}
+
+.testimonials p{
+    font-family: var(--font-buttons);
+}
+
+.testimonials__header{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.testimonials__container{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
