@@ -420,6 +420,10 @@
     .quote__container-text{
         text-align: center;
     }
+
+    .testimonials{
+        margin-bottom: 5rem;
+    }
 }
 
 @media screen and (max-width:750px) {
