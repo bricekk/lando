@@ -8,19 +8,19 @@ import './Testimonials.css'
 const TestiData = [
   {
     Testimonial: "This product is so cool and create so much value bla bla bla bla",
-    rank: <><AiFillStar color='blue' size={25} /><AiFillStar color='blue' size={25} /><AiFillStar color='blue' size={25} /><AiFillStar size={25} /><AiFillStar size={25} /></>,
+    rank: <><AiFillStar color='var(--primary-color)' size={25} /><AiFillStar color='var(--primary-color)' size={25} /><AiFillStar color='var(--primary-color)' size={25} /><AiFillStar size={25} /><AiFillStar size={25} /></>,
     clientName: "John Doe",
     clientCompany: "OssCameroon",
   },
   {
     Testimonial: "This product is so cool and create so much value bla bla bla bla",
-    rank: <><AiFillStar color='blue' size={25} /><AiFillStar color='blue' size={25} /><AiFillStar color='blue' size={25} /><AiFillStar color='blue' size={25} /><AiFillStar color='blue' size={25} /></>,
+    rank: <><AiFillStar color='var(--primary-color)' size={25} /><AiFillStar color='var(--primary-color)' size={25} /><AiFillStar color='var(--primary-color)' size={25} /><AiFillStar color='var(--primary-color)' size={25} /><AiFillStar color='var(--primary-color)' size={25} /></>,
     clientName: "John Doe",
     clientCompany: "OssCameroon",
   },
   {
     Testimonial: "This product is so cool and create so much value bla bla bla bla",
-    rank: <><AiFillStar color='blue' size={25} /><AiFillStar color='blue' size={25} /><AiFillStar color='blue' size={25} /><AiFillStar color='blue' size={25} /><AiFillStar size={25} /></>,
+    rank: <><AiFillStar color='var(--primary-color)' size={25} /><AiFillStar color='var(--primary-color)' size={25} /><AiFillStar color='var(--primary-color)' size={25} /><AiFillStar color='var(--primary-color)' size={25} /><AiFillStar size={25} /></>,
     clientName: "John Doe",
     clientCompany: "OssCameroon",
   }
